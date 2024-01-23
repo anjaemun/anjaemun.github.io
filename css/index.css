@@ -1,3 +1,30 @@
-h2 {
-    color: red;
+* {
+    box-sizing: border-box;
+}
+body {
+    background-color: beige;
+}
+.header {
+    text-align: left;
+}
+#name {
+    font-size: 50px;
+}
+.profile {
+    float: left;
+    width: 40%;
+}
+#profile_title {
+    font-size: 35px;
+}
+.division-line {
+    border: 1px solid lightgrey;
+    margin: 20px 0;
+}
+.contact {
+    float: right;
+    width: 40%;
+}
+#contact_title {
+    font-size: 35px;
 }
